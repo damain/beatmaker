@@ -51,13 +51,15 @@
         vertical-align: middle;
         transition: all 0.2s ease-in-out;
         color: rgb(80, 80, 79);
-        box-shadow: 5px 5px 10px 5px #333;
+        box-shadow: 2px 2px 3px 1px rgb(177, 177, 177) ;
         border-radius: 5px;
-        transition: all .3s
+        transition: all .15s;
+        -webkit-user-select: none;
+        -moz-user-select: none;
       }
       .playing {
         background-color: rgb(125, 194, 240);
-        box-shadow: 5px 5px 2px 2px #333;
+        box-shadow: 0px 0px 1px 0px rgb(139, 139, 139) ;
       }
       .icon{
         

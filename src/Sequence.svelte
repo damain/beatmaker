@@ -26,7 +26,7 @@ let handleClick= (data)=>{
     .sequence{
         /* padding-top: 10px; */
         display:grid;
-        gap: 3px;
+        gap: 5px;
         grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr;
     }
     .row{

@@ -37,10 +37,16 @@
     /* border: 1px solid white; */
     text-align: center;
     overflow-x: hidden;
+    border-radius:3px;
+    box-shadow: 0px 0px 2px 0px rgb(151, 151, 151);
     
   }
   .light.highlight {
     /* border: 1px solid rgb(93, 183, 243); */
-    box-shadow: 0px 5px 5px 3px rgba(75, 159, 255, .3) ;
+    background-color: palegreen;
+    /* box-shadow: 0px 5px 5px 3px rgba(75, 159, 255, .3) ; */
+  }
+  .light.highlight.lit{
+    background-color: powderblue;
   }
 </style>
